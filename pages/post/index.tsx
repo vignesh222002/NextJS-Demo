@@ -11,7 +11,7 @@ export interface Ipost {
 function PostList({ posts }: { posts: Ipost[] }) {
     return (
         <>
-            <h1>List of Posts</h1>
+            <h1>List of Post</h1>
             {posts.map((post: Ipost) => {
                 return (
                     <div key={post.id}>

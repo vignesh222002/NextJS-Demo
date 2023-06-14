@@ -45,7 +45,7 @@ export default UserPage
 //   let data
 //   await axios.get(`https://jsonplaceholder.typicode.com/users`)
 //     .then((res) => {
-      // data = res.data
+//       data = res.data
 //     })
 
 //   return {

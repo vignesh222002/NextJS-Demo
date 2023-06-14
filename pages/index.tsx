@@ -19,7 +19,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Home Page</h1>
-      <button onClick={() => handler()}>Go To Product Page</button>
+      <Link href="/product">Go To Product Page</Link>
+      {/* <button onClick={() => handler()}>Go To Product Page</button> */}
     </>
   )
 }

@@ -3,9 +3,9 @@ import React from 'react'
 
 function ReviewId() {
   const router = useRouter()
-  const { productId, reviewId } = router.query
+  const { ProductId, ReviewId } = router.query
   return (
-    <h1>Review {reviewId} for Product {productId}</h1>
+    <h1>Review {ReviewId} for Product {ProductId}</h1>
   )
 }
 

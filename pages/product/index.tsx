@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
+import styles from '../../styles/product.module.css'
 
 function Product() {
   let router = useRouter()
@@ -9,7 +10,7 @@ function Product() {
   }
   return (
     <>
-      <h1>Product Page</h1>
+      <h1 className={styles.head}>Product Page</h1>
       <button onClick={() => handler()}>Go To First Product</button>
     </>
   )
